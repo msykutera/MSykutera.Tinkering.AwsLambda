@@ -1,0 +1,20 @@
+
+{
+    "profile" : "Default",
+    "region"  : "eu-west-2",
+    "configuration" : "Release",
+    "function-runtime" : "dotnet6",
+    "function-memory-size" : 128,
+    "function-timeout"     : 30,
+    "function-handler"     : "MSykutera.Tinkering.AwsLambda",
+    "framework"            : "net6.0",
+    "function-name"        : "FibonacciSequence",
+    "package-type"         : "Zip",
+    "function-role"        : "arn:aws:iam::584269269535:role/LamdaRole",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
